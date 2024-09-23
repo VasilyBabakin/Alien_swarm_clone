@@ -32,7 +32,7 @@ class AlienInvasion:
         self.screen.fill(self.settings.bg_color)
         self.ship.blitme()
         pygame.display.flip()
-        
+
 
 if __name__ == '__main__':
     ai = AlienInvasion()
